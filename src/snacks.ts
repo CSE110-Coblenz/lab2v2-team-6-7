@@ -1,3 +1,9 @@
-let numbers: string[] = ["hot cheetos", "takis"];
+let snacks: string[] = ["Doritos","Fritos","Guac Dip","Artichoke Dip", "Beef Jerky"];
 
-console.log(numbers);
+function printSnack(arr: string[]): void {
+	for(let i: number = 0; i< arr.length; i++){
+		console.log(arr[i]);	
+	}
+}
+
+printSnack(snacks);
