@@ -1,6 +1,7 @@
-import {printCookies as Cookies} from "./snacks.ts";
+import {printCookies as Cookies} from "./cookies.ts";
+import { printFlavors } from "./brownie.ts";
+import { printFeature } from "./animation.ts";
 
 Cookies();
-import { printFlavors } from "./brownie.ts";
-
+printFeature("Iris");
 printFlavors();

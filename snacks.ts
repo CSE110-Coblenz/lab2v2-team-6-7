@@ -1,0 +1,1 @@
+const snacks : string[] = ["chips", "fruits", "nuts"];
