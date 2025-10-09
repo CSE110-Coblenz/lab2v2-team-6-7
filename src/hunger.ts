@@ -1,3 +1,4 @@
+import { animate } from "./animation";
 const foods: string[] = ['ramen', 'gyozas', 'butter chicken', 'mutton biryani', 'pani puri'];
 
 export function bhukh(): void{
