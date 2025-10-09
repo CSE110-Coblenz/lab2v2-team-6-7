@@ -1,8 +1,8 @@
 
 // src/main.ts
-import { writesnacks } from './music.ts'; // Assuming you have a music feature
+import { writeartits } from './music.ts'; // Assuming you have a music feature
 import { writesnacks } from './snacks';
 
-(writesnacks);
+(writeartits);
 
 (writesnacks);
