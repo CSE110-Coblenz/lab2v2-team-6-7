@@ -8,9 +8,9 @@ const musicArtists: string[] = [
 ];
 
 // Exported function that prints the artists to the console
-export const writesnacks = (): void => {
+export const writeartits = (): void => {
     console.log('musicArtists:');
     musicArtists.forEach(Artists => {console.log(Artists);});
     };
 
-writesnacks();
+writeartits();
