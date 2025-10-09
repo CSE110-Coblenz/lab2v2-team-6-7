@@ -1,4 +1,10 @@
-let musics: string[] = ["hot cheetos", "takis"];
+const listOfSongs = ["nail polish", "till im dead", "collapse", "soil", "I think they call this love"];
 
-console.log(numbers);
+export const getSongs = () => {
+    for (const song of listOfSongs) {
+        console.log(song);
+    }
+}
+
+getSongs();
 
