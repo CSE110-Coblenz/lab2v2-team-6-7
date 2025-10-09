@@ -1,9 +1,12 @@
 
 export const snacks: string[] = [
+    "pears",
     "grapes",
     "watermelons",
     "bananas",
-    "apples"
+    "apples",
+    "strawberries",
+    "Cherries"
 ];
 
 
