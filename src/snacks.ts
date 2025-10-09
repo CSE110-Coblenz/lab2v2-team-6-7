@@ -6,7 +6,8 @@ export const snacks: string[] = [
     "bananas",
     "apples",
     "strawberries",
-    "Cherries"
+    "Cherries",
+    "chips"
 ];
 
 
