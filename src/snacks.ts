@@ -19,6 +19,14 @@ export function printSnacks() {
 
 // call the function to print the snacks
 printSnacks();
-let cookies: string[] = ["cookies", "cheezits", "grapes", "mangoes", "ice cream", "brownies", "chips"];
+let cookies: string[] = [
+  "cookies",
+  "cheezits",
+  "grapes",
+  "mangoes",
+  "ice cream",
+  "brownies",
+  "chips",
+];
 
 console.log(cookies);
