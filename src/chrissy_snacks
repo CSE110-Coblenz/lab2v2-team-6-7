@@ -1,3 +1,0 @@
-let snacks : string[] = ["crossiants", "dark chocolate"];
-
-console.log(snacks);
