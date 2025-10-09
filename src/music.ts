@@ -1,9 +1,9 @@
 const mySnacks: string[] = [
-  "Almonds",
-  "Apple Slices",
-  "Cheese Sticks",
-  "Dark Chocolate",
-  "Pretzels"
+  "EDM",
+  "Hip-hop",
+  "Rap",
+  "R&B",
+  "Jazz"
 ];
 
 export function printItems(items: string[]): void {
