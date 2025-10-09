@@ -1,3 +1,6 @@
-let numbers: string[] = ["hot cheetos", "takis"];
 
-console.log(numbers);
+let snacks: string[] = ["Goldfish", "Potato Chips", "Pizza"];
+
+export function printSnacks(snacks: string[]) {
+    console.log(snacks);
+}

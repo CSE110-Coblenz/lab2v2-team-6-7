@@ -1,4 +1,7 @@
-let musics: string[] = ["hot cheetos", "takis"];
+const music: string[] = ["Rock", "Pop", "Rap", "EDM"];
 
-console.log(numbers);
+export function print(music: string[]) {
+    console.log(music);
+}
+
 
