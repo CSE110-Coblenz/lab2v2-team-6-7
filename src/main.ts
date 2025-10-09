@@ -1,7 +1,8 @@
-// main.ts
 
-// Import the writesnacks function from snacks.ts
+// src/main.ts
+import { writesnacks } from './music.ts'; // Assuming you have a music feature
 import { writesnacks } from './snacks';
 
-// Call the 9writesnacks function to print the snacks from snacks.ts
-writesnacks();
+(writesnacks);
+
+(writesnacks);
