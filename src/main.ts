@@ -1,3 +1,5 @@
-let music : string[] = ["song1", "songdos"];
+import { printSnacks } from "./snacks";
+import { fancyText } from "./animation";
 
-console.log(music);
+printSnacks();
+fancyText("ollo");
