@@ -1,4 +1,4 @@
-const mySnacks: string[] = [
+const myMusic: string[] = [
   "EDM",
   "Hip-hop",
   "Rap",
@@ -6,7 +6,7 @@ const mySnacks: string[] = [
   "Jazz"
 ];
 
-export function printItems(items: string[]): void {
+export function printMusic(items: string[]): void {
   items.forEach(item => {
     console.log(`- ${item}`);
   });
