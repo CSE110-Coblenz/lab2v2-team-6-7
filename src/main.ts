@@ -1,8 +1,7 @@
-const snacks: string[] = ["apples", "bananas", "chips", "gum", "cheetos"]
+// main.ts
 
-export const writesnacks = (): void => {
-    console.log('Snacks:');
-    snacks.forEach(snack => {console.log(snack);});
-    };
+// Import the writesnacks function from snacks.ts
+import { writesnacks } from './snacks';
 
+// Call the writesnacks function to print the snacks from snacks.ts
 writesnacks();
