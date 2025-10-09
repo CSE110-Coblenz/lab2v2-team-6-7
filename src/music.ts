@@ -1,4 +1,3 @@
-feature/add-music
 const music: string[] = ["Rock", "Pop", "Rap", "EDM"];
 
 export function print(music: string[]) {
@@ -6,8 +5,4 @@ export function print(music: string[]) {
 }
 const print_out = print(music);
 
-let musics: string[] = ["hot cheetos", "takis"];
 
-console.log(numbers);
-
-main
