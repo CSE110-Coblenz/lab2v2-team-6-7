@@ -3,7 +3,7 @@ const foods: string[] = ['ramen', 'gyozas', 'butter chicken', 'mutton biryani', 
 
 export function bhukh(): void{
     animate("Hunger");
-    console.log('Food that I crave when hungry: ');
+    console.log('Food that I really love when hungry: ');
     for (const food of foods){
         console.log("-" + food);
     }
