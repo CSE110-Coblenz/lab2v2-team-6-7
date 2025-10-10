@@ -1,7 +1,9 @@
 import { printMusic } from "./music";
+import { printSnacks } from "./snacks";
 
 function main() {
   console.log("=== Party Plan ===");
-  printMusic(); // 你这边只打印 music
+  printMusic();
+  printSnacks();
 }
 main();
