@@ -5,6 +5,9 @@ export function printMusic() {
   for (const m of music) console.log(" -", m);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (require.main === module) {
+  printMusic();
+}
+`) {
   printMusic();
 }
