@@ -1,7 +1,9 @@
+import { printSnacks } from "./snacks";
 import { printMusic } from "./music";
 
 function main() {
-  printMusic(); // conflict demo
+  printSnacks();
+  printMusic();
 }
 
 main();
