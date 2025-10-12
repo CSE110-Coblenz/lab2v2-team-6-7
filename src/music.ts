@@ -1,4 +1,4 @@
-export const music = ["pop", "rock", "hip-hop"];
+export const music = ["pop", "rock", "hip-hop","kids"];
 
 export function printMusic() {
   console.log("Music:");
