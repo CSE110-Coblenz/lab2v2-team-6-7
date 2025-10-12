@@ -1,0 +1,33 @@
+{
+  "name": "110-lab2-juw093",
+  "version": "1.0.0",
+  "description": "Fresh repository with main branch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSE110-Coblenz/110-lab2-juw093.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CSE110-Coblenz/110-lab2-juw093/issues"
+  },
+  "homepage": "https://github.com/CSE110-Coblenz/110-lab2-juw093#readme",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.10",
+    "get-tsconfig": "^4.12.0",
+    "resolve-pkg-maps": "^1.0.0"
+  }
+}
