@@ -1,5 +1,9 @@
-// src/main.ts  (BRANCH)
+import { printSnacks } from "./snacks";
+import { printMusic } from "./music";
+
 function main() {
-  console.log("LINE-TO-CONFLICT: BRANCH");  // ← 同一行，但内容不同
+  printSnacks();
+  printMusic();
 }
+
 main();
