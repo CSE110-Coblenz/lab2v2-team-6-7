@@ -1,7 +1,7 @@
 // src/snacks.ts
 
 // 1) define a list (array) of items
-export const snacks: string[] = ["Pocky","Gummy Bears"];
+export const snacks: string[] = ["Chips","Pocky","Gummy Bears","Trail Mix"];
 
 // 2) define & export a function that prints them
 export function printSnacks(items: string[] = snacks): void {
