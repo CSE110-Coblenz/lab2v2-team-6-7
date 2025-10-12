@@ -1,9 +1,5 @@
-import { printMusic } from "./music";
-import { printSnacks } from "./snacks";
-
+// src/main.ts  (MAIN)
 function main() {
-  console.log("=== Party Plan ===");
-  printMusic();
-  printSnacks();
+  console.log("LINE-TO-CONFLICT: MAIN");  
 }
 main();
