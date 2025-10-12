@@ -1,9 +1,6 @@
+// src/main.ts
 import { printMusic } from "./music";
-import { printSnacks } from "./snacks";
-
 function main() {
-  console.log("=== Party Plan ===");
-  printMusic();
-  printSnacks();
+  printMusic();          //make the conflict here to practice git merge
 }
 main();
